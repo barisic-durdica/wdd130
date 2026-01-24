@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(75, 50, 3);
-    --secondary-color: rgb(94, 211, 127);
+    --secondary-color: rgb(202, 232, 169);
     --accent1-color: rgb(8, 50, 24);
     --accent2-color: rgb(218, 201, 102);
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -68,11 +68,17 @@ h1 {
     color: white;
 }
 
+ul {
+    position: relative;
+    background-color: var(--secondary-color);
+    padding: 30px;
+}
+
 .hero article {
     position: absolute;
     bottom: 0;
     padding: 5px;
-    text-align: center;
+    text-align: left;
     background-color: var(--accent2-color);
     width: 97%;
 }
