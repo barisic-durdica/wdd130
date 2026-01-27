@@ -16,20 +16,34 @@
     box-sizing: border-box;
 }
 
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 nav {
     background-color: var(--primary-color);
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav a {
     color: var(--secondary-text-color);
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: var(--primary-text-color);
     margin: 1rem;
+    border-bottom: var(--secondary-border);
 }
 
 h2 {
@@ -52,14 +66,23 @@ p {
     font-size: 17px;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
+
 main {
     max-width: 840px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 aside {
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside img {
