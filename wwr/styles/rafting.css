@@ -19,12 +19,11 @@ header {
     grid-template-columns: 20% 1fr;
     align-items: flex-end;
     border-bottom: 1px solid var(--primary-color);
-    max-width: 1000px;
     background-color: var(--secondary-color);
 }
 
 .logo {
-    width: 170px;
+    width: 200px;
     height: auto;
     margin-right: auto;
 }
@@ -32,6 +31,7 @@ header {
 .navigation {
     display: flex;
     list-style: none;
+    right: 10px;
 
 }
 
@@ -44,8 +44,8 @@ header {
     color: var(--primary-color);
     padding: 30px;
     text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 1.5rem;
+    font-weight: 1000;
     align-items: flex-end;
     justify-content: flex-end;
 }
@@ -92,6 +92,7 @@ article {
     display: block;
     width: 100%;
     height: auto;
+    padding-top: 10px;
 }
 
 h1 {
@@ -123,4 +124,52 @@ ul {
 .hero article img {
     float: right;
     width: 180px;
+
+}
+
+#adventurous_pictures {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
+
+#adventurous_pictures img {
+    width: 150px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    background-color: var(--secondary-color);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    left: 77%;
+
+}
+
+#history {
+    display: flex;
+
+}
+
+#history img {
+    width: 350px;
+    height: auto;
+    margin-top: 27px;
 }
