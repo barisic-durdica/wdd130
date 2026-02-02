@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid gray;
+    letter-spacing: 1px;
+}
+
+th,
+td {
+    border: 1px solid gray;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+#rowspan {
+    background-color: blue;
+}
