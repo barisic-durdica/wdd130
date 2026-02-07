@@ -34,6 +34,7 @@
             </p>
         </section>
         <section class="contact-form">
+            <h2 class="visually-hidden">Contact Form</h2>
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40752.02932455543!2d-116.94053065657741!3d32.92040950420509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1770495441079!5m2!1sen!2suk"
@@ -56,17 +57,17 @@
                     </legend>
                     <label class="choice">
                         <input type="radio" id="purpose-general" name="purpose" value="general"
-                          checked />
+                          checked>
                         <span>General Inquiry</span>
                     </label>
                     <label class="choice">
                         <input type="radio" id="purpose-reservation" name="purpose"
-                          value="reservation" checked />
+                          value="reservation" checked>
                         <span>Reservation Question</span>
                     </label>
                     <label class="choice">
                         <input type="radio" id="purpose-suggestion" name="purpose"
-                          value="suggestion" checked />
+                          value="suggestion" checked>
                         <span>Website Suggestion</span>
                     </label>
                 </fieldset>
@@ -75,8 +76,8 @@
                     <textarea name="message" id="message" rows="7"
                       placeholder="Type here"></textarea>
                 </div>
-                <label for="choice choice-checkbox">
-                    <input type="checkbox" id="subscribe-newsletter" name="newsletter" checked>
+                <input type="checkbox" id="subscribe-newsletter" name="newsletter" checked>
+                <label class="choice choice-checkbox" for="subscribe-newsletter">
                     <span>Please Subscribe me to the monthly newsletter</span>
                 </label>
                 <button class="btn" type="submit">Get in Touch!</button>
