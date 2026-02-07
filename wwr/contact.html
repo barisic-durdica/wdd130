@@ -26,10 +26,10 @@
     <main>
         <section class="alfa">
             <h1>Down The River Rafting Company</h1>
-            <p class="subtitle">
-                150 Main River Street<br />
-                Lakeside, California<br />
-                +1 777 555 3333<br />
+            <p class="subtitle address">
+                <span>150 Main River Street</span>
+                <span>Lakeside, California</span>
+                <span>+1 777 555 3333</span>
                 <a href="mailto:info@downtheriver.com">info@downtheriver.com</a>
             </p>
         </section>
@@ -50,17 +50,23 @@
                     <input id="email" name="email" type="email" placeholder="Placeholder">
                 </div>
                 <fieldset class="field field-radios">
-                    <legend>Message<br />Purpose</legend>
+                    <legend class="legend">
+                        <span>Message</span>
+                        <span>Purpose</span>
+                    </legend>
                     <label class="choice">
-                        <input type="radio" name="purpose" value="general" checked />
+                        <input type="radio" id="purpose-general" name="purpose" value="general"
+                          checked />
                         <span>General Inquiry</span>
                     </label>
                     <label class="choice">
-                        <input type="radio" name="purpose" value="reservation" checked />
+                        <input type="radio" id="purpose-reservation" name="purpose"
+                          value="reservation" checked />
                         <span>Reservation Question</span>
                     </label>
                     <label class="choice">
-                        <input type="radio" name="purpose" value="suggestion" checked />
+                        <input type="radio" id="purpose-suggestion" name="purpose"
+                          value="suggestion" checked />
                         <span>Website Suggestion</span>
                     </label>
                 </fieldset>
@@ -70,7 +76,7 @@
                       placeholder="Type here"></textarea>
                 </div>
                 <label for="choice choice-checkbox">
-                    <input type="checkbox" name="newsletter" checked>
+                    <input type="checkbox" id="subscribe-newsletter" name="newsletter" checked>
                     <span>Please Subscribe me to the monthly newsletter</span>
                 </label>
                 <button class="btn" type="submit">Get in Touch!</button>
@@ -79,16 +85,18 @@
         <section>
             <h2>We Are Here to Serve You</h2>
             <div id="adventurous_pictures">
-                <figure><img src="images/1 the founders.webp" alt="The founders of the company">
+                <figure><img src="images/the_founders.webp" alt="The founders of the company">
                     <figcaption>John and Jane Smith, The Founders</figcaption>
                 </figure>
-                <figure><img src="images/5 rafting instructor.webp" alt="Rafting instructor">
+                <figure><img src="images/rafting_instructor.webp"
+                      alt="Rafting instructor of the company">
                     <figcaption>Rachel Reiss, Rafting Instructor</figcaption>
                 </figure>
-                <figure><img src="images/7 fishing instructor.webp" alt="Fishing instructor">
+                <figure><img src="images/fishing_instructor.webp"
+                      alt="Fishing instructor of the company">
                     <figcaption>Jonathan Biell, Fishing Instructor</figcaption>
                 </figure>
-                <figure><img src="images/2 Hiking leader.webp" alt="Hiking leader">
+                <figure><img src="images/hiking_leader.webp" alt="Hiking leader of the company">
                     <figcaption>Emma Green, Hiking Leader</figcaption>
                 </figure>
 

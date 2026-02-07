@@ -185,6 +185,12 @@ footer p {
     font-weight: 600;
 }
 
+.address {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
 .subtitle a {
     color: var(--tertiary-color);
     text-decoration: none;
@@ -229,10 +235,9 @@ footer p {
     margin: 6px 0 8px;
 }
 
-.field-radios legend {
-    grid-column: 1 /2;
-    align-self: start;
-    padding-top: 10px;
+.legend {
+    display: flex;
+    flex-direction: column;
 }
 
 .choice {
