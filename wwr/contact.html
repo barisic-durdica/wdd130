@@ -55,30 +55,34 @@
                         <span>Message</span>
                         <span>Purpose</span>
                     </legend>
-                    <label class="choice">
-                        <input type="radio" id="purpose-general" name="purpose" value="general"
-                          checked>
-                        <span>General Inquiry</span>
-                    </label>
-                    <label class="choice">
-                        <input type="radio" id="purpose-reservation" name="purpose"
-                          value="reservation" checked>
-                        <span>Reservation Question</span>
-                    </label>
-                    <label class="choice">
-                        <input type="radio" id="purpose-suggestion" name="purpose"
-                          value="suggestion" checked>
-                        <span>Website Suggestion</span>
-                    </label>
+                    <div class="radio-options">
+                        <label class="choice">
+                            <input type="radio" id="purpose-general" name="purpose" value="general"
+                              checked>
+                            <span>General Inquiry</span>
+                        </label>
+                        <label class="choice">
+                            <input type="radio" id="purpose-reservation" name="purpose"
+                              value="reservation" checked>
+                            <span>Reservation Question</span>
+                        </label>
+                        <label class="choice">
+                            <input type="radio" id="purpose-suggestion" name="purpose"
+                              value="suggestion" checked>
+                            <span>Website Suggestion</span>
+                        </label>
+                    </div>
                 </fieldset>
                 <div class="field field-message">
                     <label for="message">Message</label>
                     <textarea name="message" id="message" rows="7"
                       placeholder="Type here"></textarea>
                 </div>
-                <input type="checkbox" id="subscribe-newsletter" name="newsletter" checked>
-                <label class="choice choice-checkbox" for="subscribe-newsletter">
-                    <span>Please Subscribe me to the monthly newsletter</span>
+                <div class="subscribe">
+                    <input type="checkbox" id="subscribe-newsletter" name="newsletter" checked>
+                    <label class="choice choice-checkbox" for="subscribe-newsletter">
+                        <span>Please Subscribe me to the monthly newsletter</span>
+                </div>
                 </label>
                 <button class="btn" type="submit">Get in Touch!</button>
             </form>
@@ -96,9 +100,6 @@
                 <figure><img src="images/fishing_instructor.webp"
                       alt="Fishing instructor of the company">
                     <figcaption>Jonathan Biell, Fishing Instructor</figcaption>
-                </figure>
-                <figure><img src="images/hiking_leader.webp" alt="Hiking leader of the company">
-                    <figcaption>Emma Green, Hiking Leader</figcaption>
                 </figure>
 
             </div>
