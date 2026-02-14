@@ -81,6 +81,11 @@ article {
     width: 100%;
 }
 
+p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
@@ -478,4 +483,19 @@ td {
 
 .trip-card p {
     margin: 6px 0;
+}
+
+/* Font */
+
+table,
+form,
+th,
+td,
+input,
+select,
+textarea,
+button,
+labeln {
+    font-size: 1.25rem;
+    font-family: inherit;
 }
