@@ -357,10 +357,20 @@ footer p {
 
 /* Home page */
 .home-top {
+    grid-column: 1 / -1;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
     margin-top: 20px;
+}
+
+.newsletter,
+.cta-box {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    justify-self: stretch;
+    padding: 0;
 }
 
 .newsletter-form input {
@@ -379,6 +389,20 @@ footer p {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.home-grid section,
+.home-top,
+.home-top > section {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: auto !important;
+}
+
+.cta-box p,
+.newsletter p,
+.newsletter-form {
+    padding: 0 20px;
 }
 
 /* Trips page */
