@@ -96,7 +96,7 @@ article {
     padding-top: 10px;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -328,4 +328,130 @@ footer p {
 
 .form button {
     margin-top: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.85;
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+.btn-link {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 700;
+}
+
+.btn-link:hover {
+    opacity: 0.9;
+}
+
+/* Home page */
+.home-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.newsletter-form input {
+    width: 100%;
+    padding: 8px;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.home-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Trips page */
+.trip-cards {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.trip-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    align-items: start;
+
+    border: 1px solid var(--primary-color);
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.trip-card img {
+    grid-column: 1;
+    grid-row: 1 / -1;
+
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+    border-radius: 6px;
+}
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th,
+td {
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+    text-align: center;
+}
+
+.trip-card h2,
+.trip-card p {
+    grid-column: 2;
+}
+
+.trip-card h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.trip-image img {
+    width: 80%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.trip-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.trip-card p {
+    margin: 6px 0;
 }
